@@ -9,6 +9,7 @@ function App() {
     
     <Router>
       <Switch>
+
         <Route path="/" exact>
           <Users />
         </Route>
@@ -16,6 +17,8 @@ function App() {
         <Route path="/expenses/new" exact>
           <NewExpense />
         </Route>
+
+
         <Redirect to="/"/>
       </Switch>
     </Router>

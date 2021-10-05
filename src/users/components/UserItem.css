@@ -1,0 +1,11 @@
+.user-item {
+    text-align: center;
+}
+.user-item__content {
+    color:teal;
+}
+.user-item__image {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
